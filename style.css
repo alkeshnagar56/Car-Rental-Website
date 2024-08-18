@@ -1,0 +1,678 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main_nav{ 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+}
+.nav_options{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.brand{
+    font-size: 20px;
+}
+.menu{
+    font-weight: lighter;
+    width: 117px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    color: #a9a9a9;
+    text-decoration: none;
+    height: 50px;
+    padding-top: 10px;
+}
+.cart_img{
+    background-image: url(./images/White_Cart_Rental_car.png);
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: cover;
+}
+.cart{
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    color: #a9a9a9;
+    font-weight: lighter;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.cart:hover{
+        background-color: #8b8ba4;
+
+}
+.menu:hover{
+    background-color: #8b8ba4;
+}
+
+
+
+/* Home Page Section */
+
+.home_page{
+    background-image: url(/images/Home\ main\ img.jpeg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    
+}
+.child_home_page{
+    background-color: #9effc097;
+    padding: 25px;
+    border-radius: 10px;
+}
+.page_heading{
+    font-size: 55px;
+    color:rgba(255, 68, 0, 0.932);
+    justify-content: flex-start;
+}
+.page_content{
+    font-size: 25px;
+    color: black; 
+    font-weight: 500;
+    margin-top: 20px;
+}
+.child_home_page2{
+    width: 70%;
+    height: 30%;
+}
+.Home_input{
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin: 20px;
+    height: 50px;
+    border-radius: 10px ;
+    color: rgba(162, 167, 172, 0.612) ;
+}
+.home_page_Button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: 550;
+    font-size: 20px;
+}
+.home_page_Button:hover{
+    background-color: #15E4EA;
+    transition: 0.5s;
+}
+
+
+
+/* about section  */
+
+
+.about_page{
+    margin-top: 50px;
+    display: flex;
+    width: 90%;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+}
+.about_heading{
+    margin: 20px;
+}
+
+.par_about_content{
+    width: 50%;
+}
+.about_content{
+    color: rgba(149, 153, 156, 0.612);
+    font-weight: 100;
+}
+
+
+
+
+.par_about_img{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    right: -50PX;
+
+}
+.about_img1{
+    background-image: url(./images/Dodge\ Challenger.jpg);
+    width: 17rem;
+    height: 17rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.about_img2{
+    background-image: url(./images/Gtr\ Drift.jpg);
+    width: 20rem;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 60%;
+}
+
+.about_page2{
+    background-image: url(./images/luxury_car_collection.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.about_details{
+    position: relative;
+    bottom: -100px;
+    margin: 50px;
+    padding: 20px;
+    width: 40%;
+    height: 60%;
+    border-top: 20px solid rgb(255, 0, 0);
+    background-color: rgba(245, 245, 245, 0.779);
+    border-radius: 20px;
+}
+.about_details_heading{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.about_details_Info{
+    font-size: 25px;
+    color: rgb(162, 167, 172);
+    margin: 1rem;
+}
+.details_head{
+    color: rgba(112, 113, 114, 0.719);
+    font-weight: lighter;
+}
+.details_info{
+    color: rgba(144, 146, 149, 0.719);
+    font-weight: 800;
+}
+
+
+/* Shop Section  */
+
+.shop_page{
+    align-self: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: wheat;
+    margin: 50px 0px;
+}
+
+.car_collection_block{
+    width: 26%;
+    margin: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.shop_img{
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    /* width: 90%; */
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.car_condition{
+    font-size: large;
+}
+.car_speci{
+    font-size: large;
+}
+.car_quality{
+    font-size: large;
+}
+.shopbuttons{
+    margin: 30px;
+}
+.shop_contact_button{
+    margin: 10px 5px;
+    padding: 15px;
+    text-decoration: none;
+}
+.rent_button{
+    margin: 10px 5px;
+    padding: 15px;
+    text-decoration: none;
+}
+.shop_img1{
+    background-image: url(./images/BMW_M5.avif);
+}
+.shop_img2{
+    background-image: url(./images/Lambo_Huracan.jpg);
+}
+.shop_img3{
+    background-image: url(./images/Red\ Gtr\ Rear.jpg);
+}
+.shop_img4{
+    background-image: url(./images/Dodge\ Challenger.jpeg);
+}
+.shop_img5{
+    background-image: url(./images/mercedes_AMG_GT.jpeg);
+}
+.shop_img6{
+    background-image: url(./images/urus.jpeg);
+}
+
+
+
+
+/* contact section */
+.Contact{
+    width: 100%;
+    background-image: url(./images/Dark_Car_img.jpg );
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.contact_form{
+    background-color: rgba(245, 245, 220, 0.452);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    border-top: 20px solid #dbdbf5;
+}
+.contact_main{
+    margin: 20PX;
+    font-size: 50PX;
+    color: white;
+    font-weight: 700;
+}
+.Contact_headings{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Contact_Input{
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
+.name_div{
+    display: flex;
+    gap: 20px;
+}
+
+.contact_select{
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+.Contact_submit{
+    width: 300px;
+    background-color:  #8b8ba4;
+}
+
+
+
+
+/* Footer Part */
+
+.footer{
+    background-color: #36363e;
+    padding: 50px;
+}
+.footer_info_contact{
+    /* height: 300px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-content: start;
+}
+.blck_wavy_img{
+    background-image: url(./images/black-wavy-img.png);
+    background-position:center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+.footerinfo1{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 40px;
+}
+.footerhead{
+    font-size: 30px;
+    color: white;
+}
+.footercontent{
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.footer_contact{
+    color: #6c757d;
+}
+.footer_contact:hover{
+    color: #f65129;
+}
+.footerinfo2{
+    margin-left: 150px;
+}
+.footeraddress{
+    line-height: 40px;
+}
+.footeraddressimg{
+    display: flex;
+    gap: 10px;
+}
+.footerlocationimg{
+    background-image: url(./images/white-location.png);
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.footerinfo3{
+    line-height: 40px;
+}
+.footercall{
+    display: flex;
+    gap: 10px;
+}
+.footercallimg{
+    background-image: url(./images/white-call.png);
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.footermail{
+    display: flex;
+    gap: 10px;
+    
+}
+.footermailimg{
+    background-image: url(./images/white-mail.png);
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.footerCopyright{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    padding: 100px 0px 0px 600px;
+}
+.copyrightcontent{
+    color: white;
+    font-size: 15px;
+}
+.copyryttwitter{
+    background-image: url(./images/blue-twitter-logo.png);
+    background-position: center;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+}
+.copyryttwitter:hover{
+    background-image: url(./images/white-twitter.png);
+}
+.copyrytfacebook{
+    background-image: url(./images/blue-facebook-logo.png);
+    background-position: center;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+}
+.copyrytfacebook:hover{
+    background-image: url(./images/white-facebook.png);
+}
+.copyrytinstagram{
+    background-image: url(./images/pink-instagram.png);
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+.copyrytinstagram:hover{
+    background-image: url(./images/white-instagram.png);
+    height: 20px;
+    width: 20px;
+}
+.copyrytprinter{
+    background-image: url(./images/orangered-printrest-logo.png);
+    background-position: center;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+}
+.copyrytprinter:hover{
+    background-image: url(./images/white-printerest.png);
+}
+.copyrightwhatsup{
+    background-image: url(./images/green-whatsapp.png);
+    background-position: center;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+}
+.copyrytwhatsup:hover{
+    background-image: url(./images/white-whatsapp.png);
+}
+.footerlogo{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+}
+
+.footercontact{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/* Media Screen */
+
+@media screen and (min-width:300px) and (max-width:550px) {
+    .brand{
+        font-size: 10px;
+
+    }
+    .menu{
+        font-size: 8px;
+        height: 30px;
+
+    }
+    .cart{
+        height: 25px;
+        width: 50px;
+        font-size: 8px;
+    }
+
+    /* Home Page */
+
+    .page_heading{
+        font-size: 45px;
+    }
+    .page_content{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .child_home_page2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .Home_input{
+        width: 100%;
+        height: 100px;
+    }
+    .home_page_Button{
+        width: 50%;
+        height: 100px;
+    }
+
+
+    /* About Page */
+    .about_page{
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+    }
+    .about_heading{
+        margin: 0px 0px 10px 0px;
+        font-size: 35px;
+    }
+    .par_about_content{
+        width: 100%;
+        padding: 20px;
+    }
+    .about_content{
+        font-size: 20px;
+    }
+    .par_about_img{
+        /* flex-direction: column; */
+        right: 0px;
+    }
+    .about_img1{
+        width: 10rem;
+        height: 10rem;
+    }
+    .about_img2{
+        width: 15rem;
+        height: 15rem;
+    }
+    .about_details{
+        width: 90%;
+        margin: 20px;
+
+    }
+
+
+    /* Shop Section */
+
+    .shop_page{
+        flex-direction: column;
+    }
+    .car_collection_block{
+        width: 90%;
+        margin: 15px;
+    }
+
+    /* Contract Section */
+
+    .contact_form{
+        width: 90%;
+    }
+
+    .name_div{
+        flex-direction: column;
+        }
+    .Contact_headings{
+        font-size: 15px;
+    }
+    .Contact_Input{
+        width: 150%;
+    }
+    .contact_budget{
+        margin: 20px 0px;
+        height: 50px;
+        width: 95%;
+    }
+    .Contact_submit{
+        height: 50px;
+        width: 70%;
+    }
+
+
+    /* Footer Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .blck_wavy_img{
+        width: 100vw;
+        height: 150px;
+        margin-bottom: -5px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .footer_info_contact{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footerinfo1{
+        text-align: center;
+    }
+    .footerinfo2{
+        margin: auto;
+        text-align: center;
+    }
+    .footerinfo3{
+        margin: auto;
+        text-align: center;
+    }
+    .footerCopyright{
+        padding: 50px 0px 0px 100px;
+        flex-direction: column;
+        width: 100vw;
+        height: 100px;
+        align-items: baseline;
+        background-color: #36363e;
+        display: inline;
+    }
+    .footerlogo{
+        width: 80vw;
+    }
+
+
+}
+
+

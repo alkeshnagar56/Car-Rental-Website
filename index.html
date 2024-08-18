@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Rental Hub</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<nav>
+    <div id="main_nav">
+        <div class="logo">
+            <div class="brand">
+                <h1 style="font-weight:bolder;"><span style="color: #ffd74f;">Rent</span> <span
+                        style="color: red;">Ride</span><span style="color: #00a05d;">Hub</span></h1>
+            </div>
+        </div>
+        <div class="nav_options">
+            <a href="#home" class="home menu">
+                <h1>Home</h1>
+            </a>
+            <a href="#about" class="about menu">
+                <h1>About</h1>
+            </a>
+            <a href="#shop" class="shop menu">
+                <h1>Shop</h1>
+            </a>
+            <a href="#contact" class="contact menu">
+                <h1>Contact</h1>
+            </a>
+        </div>
+        <a href="#contact" class="cart">
+            <div class="cart_img"></div>
+            <div class="">Cart</div>
+        </a>
+    </div>
+    
+</nav>
+
+<section>
+    <div class="home_page" id="home">
+        <div class="child_home_page">
+        <h1 class="page_heading">
+            Buckle Up with Safety
+        </h1>
+        <h1 class="page_content">
+            Your adventure starts with the perfect ride.</h1>
+        
+        <p class="page_content">
+            Buckle up!
+        </p>
+        </div>
+        <div class="child_home_page child_home_page2">
+            <select class="Home_input" id="car_Input" name="car">
+                <option class="0">Choose Your Favrioute Car</option>
+                <option class="1">BMW M5</option>
+                <option class="2">Lamborghini Huracan</option>
+                <option class="3">GTR35</option>
+                <option class="4">Dodge Challenger</option>
+                <option class="5">Mercedes AMG GT</option>
+                <option class="6">Lamborghini Urus</option>
+            </select>
+            <input class="Home_input" id="carBudget" type="text" placeholder="$ Your Budget $" readonly value="Budget">
+            <button class="home_page_Button" id="Car_Search" type="submit">Search</button>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="about_page" id="about">
+        <div class="par_about_content">
+            <h1 class="about_heading page_heading">Our Story</h1>
+            <h1 class="about_content">At Rent Ride Hub, we offer a diverse selection of top-quality rental cars to suit every occasion, from business trips to vacations. With competitive rates and outstanding customer service, we ensure a seamless experience from booking to return. Drive in comfort and style—reserve your vehicle today!</h1>
+        </div>
+        <div class="par_about_img">
+            <div class="about_img1"></div>
+            <div class="about_img2 "></div>
+        </div>
+    </div>
+    <div class="about_page2">
+        <div class="about_details">
+            <div>
+                <h1 class="about_details_heading">Opening hours</h1>
+                <h1 class="about_details_Info">
+                    <span class="details_head">Timing ~ </span> <span class="details_info">9AM to 7PM</span></h1>
+                <h1 class="about_details_Info">
+                    <span class="details_head">Delivery Timing ~ </span><span class="details_info">24X7</span>
+                </h1>
+                <h1 class="about_details_Info">
+                    <span class="details_head">Delivery Location ~</span><span class="details_info"> Door Step</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section>
+    <div class="shop_page" id="shop">
+
+        <div class="car_collection_block">
+            <div class="shop_img shop_img1"></div>
+            <div class="car_info">
+                <div class="car_name">
+                    <h1>BMW M5</h1>
+                </div>
+                <div class="car_condition">
+                    <h1>
+                    <span class="car_speci">seating capacity ~</span> <span class="car_quality">5</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Condition ~</span>  <span class="car_quality">Excellent</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Fuel Economy ~</span>  <span class="car_quality">21</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Charges ~</span>  <span class="car_quality">10$/hour <br> 240$/Day</span>
+                    </h1>
+                </div>
+                <div class="shopbuttons">
+                    <a href="#contact" class="shop_contact_button home_page_Button">Contact</a>
+                    <a href="#contact" class="rent_button home_page_Button" id="shopRent1">Rent</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="car_collection_block">
+            <div class="shop_img shop_img2"></div>
+            <div class="car_info">
+                <div class="car_name">
+                    <h1>Lambo Huracan</h1>
+                </div>
+                <div class="car_condition">
+                    <h1>
+                    <span class="car_speci">seating capacity ~</span> <span class="car_quality">2</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Condition ~</span>  <span class="car_quality">Excellent</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Fuel Economy ~</span>  <span class="car_quality">18</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Charges ~</span>  <span class="car_quality">25$/hour <br> 540$/Day</span>
+                    </h1>
+                </div>
+                <div class="shopbuttons">
+                    <a href="#contact" class="shop_contact_button home_page_Button">Contact</a>
+                    <a href="#contact" class="rent_button home_page_Button" id="shopRent2">Rent</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="car_collection_block">
+            <div class="shop_img shop_img3"></div>
+            <div class="car_info">
+                <div class="car_name">
+                    <h1>GTR35</h1>
+                </div>
+                <div class="car_condition">
+                    <h1>
+                    <span class="car_speci">seating capacity ~</span> <span class="car_quality">4</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Condition ~</span>  <span class="car_quality">best</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Fuel Economy ~</span>  <span class="car_quality">22</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Charges ~</span>  <span class="car_quality">15$/hour <br> 300$/Day</span>
+                    </h1>
+                </div>
+                <div class="shopbuttons">
+                    <a href="#contact" class="shop_contact_button home_page_Button">Contact</a>
+                    <a href="#contact" class="rent_button home_page_Button" id="shopRent3">Rent</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="car_collection_block">
+            <div class="shop_img shop_img4"></div>
+            <div class="car_info">
+                <div class="car_name">
+                    <h1>Dodge Challenger</h1>
+                </div>
+                <div class="car_condition">
+                    <h1>
+                    <span class="car_speci">seating capacity ~</span> <span class="car_quality">5</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Condition ~</span>  <span class="car_quality">Excellent</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Fuel Economy ~</span>  <span class="car_quality">30</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Charges ~</span>  <span class="car_quality">20$/hour <br> 350$/Day</span>
+                    </h1>
+                </div>
+                <div class="shopbuttons">
+                    <a href="#contact" class="shop_contact_button home_page_Button">Contact</a>
+                    <a href="#contact" class="rent_button home_page_Button" id="shopRent4">Rent</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="car_collection_block">
+            <div class="shop_img shop_img5"></div>
+            <div class="car_info">
+                <div class="car_name">
+                    <h1>Mercedes AMG GT</h1>
+                </div>
+                <div class="car_condition">
+                    <h1>
+                    <span class="car_speci">seating capacity ~</span> <span class="car_quality">2</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Condition ~</span>  <span class="car_quality">Good</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Fuel Economy ~</span>  <span class="car_quality">19</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Charges ~</span>  <span class="car_quality">21$/hour <br> 480$/Day</span>
+                    </h1>
+                </div>
+                <div class="shopbuttons">
+                    <a href="#contact" class="shop_contact_button home_page_Button">Contact</a>
+                    <a href="#contact" class="rent_button home_page_Button" id="shopRent5">Rent</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="car_collection_block">
+            <div class="shop_img shop_img6"></div>
+            <div class="car_info">
+                <div class="car_name">
+                    <h1>BMW M5</h1>
+                </div>
+                <div class="car_condition">
+                    <h1>
+                    <span class="car_speci">seating capacity ~</span> <span class="car_quality">5</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Condition ~</span>  <span class="car_quality">Excellent</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Fuel Economy ~</span>  <span class="car_quality">19</span>
+                    </h1>
+                    <h1>
+                    <span class="car_speci">Charges ~</span>  <span class="car_quality">12$/hour <br> 290$/Day</span>
+                    </h1>
+                </div>
+                <div class="shopbuttons">
+                    <a href="#contact" class="shop_contact_button home_page_Button">Contact</a>
+                    <a href="#contact" class="rent_button home_page_Button" id="shopRent6">Rent</a>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+</section>
+
+
+
+<section>
+    <div class="Contact" id="contact">
+        <div class="contact_form">
+            <h1 class="contact_main">Contact Us</h1>
+
+            <div class="name_div">
+
+                <span class="Contact_headings">First Name ~ </span><input type="text" placeholder="Enter your First Name" name="Name" id="FirstName" class="Contact_Input" required>
+
+                <span class="Contact_headings">Last Name ~ </span><input type="text" placeholder="Enter your Last Name" name="Name" class="Contact_Input" id="LastName" required>
+
+            </div>
+            <br>
+            <div class="name_div">
+                <span class="Contact_headings">E-mail ~</span><input type="email" placeholder="Enter email" name="Name" class="Contact_Input" id="email" required>
+
+                <span class="Contact_headings">Contact No. ~</span><input type="tel" placeholder="Enter No." name="Phone No." class="Contact_Input" id="contactNo" required>
+
+            </div>
+            <br>
+            <div class="name_div">
+                <span class="Contact_headings">Pick-Up Date ~</span><input type="date" placeholder="Enter Pick up Date" value="Date" class="Contact_Input" id="PickDate" required>
+
+                <br>
+                <span class="Contact_headings">Pick-up Time ~</span><input type="time" placeholder="Pick up Time" value="Time" class="Contact_Input" id="pickTime" required>
+            </div>
+            <br>
+            <div class="name_div">
+                <span class="Contact_headings">Drop Date ~</span><input type="date" placeholder="Enter Drop Date" value="Date" class="Contact_Input" id="DropDate" required>
+
+                <br>
+                <span class="Contact_headings">Drop Time ~</span><input type="time" required  placeholder="Drop Time" value="Time" class="Contact_Input" id="DropTime" aria-required="true">
+            </div>
+            <br>
+            <div class="">
+                <select class="contact_input contact_select" name="car" id="ContactCar">
+                    <option>Select The Car</option>
+                    <option>BMW M5</option>
+                    <option>Lamborghini Huracan</option>
+                    <option> GTR35</option>
+                    <option>Dodge Challenger</option>
+                    <option>Mercedes AMG GT</option>
+                    <option>Lamborghini Urus</option>
+                </select>
+                <input class="Home_input contact_budget contact_select" type="text" readonly placeholder="$ Rent/hour $" value="Budget" id="ContactBudget">
+                <br>
+                <input class="home_page_Button Contact_submit" type="submit" id="ContactSubmit" value="Submit">
+
+
+
+
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- Footer -->
+<section>
+
+    <div class="blck_wavy_img"></div>
+    <div class="footer">
+        <div class="footer_info_contact">
+            <div class="footerinfo1">
+                <div class="footerinfo">
+                    <div class="footerhead">Rent Ride Hub</div>
+                    <div class="footercontent">Since 1986, We Rented Luxurious Vehicles For Your Comfort</div>
+                    <a href="#">
+                        <div class="footer_contact">Your Safety:Our Priority</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footerinfo2">
+                <div class="footeraddress">
+                    <div class="footerhead">Shop</div>
+                    <div class="footeraddressimg">
+                        <div class="footerlocationimg"></div>
+                        <div class="footercontent">Ahemdabad, Gujrat
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerinfo3">
+                <div class="footercontact">
+                    <div class="footerhead">Contact Info</div>
+                </div>
+                <div class="footercall"><a href="#">
+                        <div class="footercallimg"></div>
+                        <div class="footercontact"> 090-080-0760
+                    </a></div>
+            </div>
+            <div class="footermail"><a href="https://mail.google.com/mail/u/0/#inbox">
+                    <div class="footermailimg"></div>
+                    <div class="footercontact footercontent"> info@company.com
+                </a></div>
+        </div>
+    </div>
+    </div>
+    <div class="footerCopyright">
+        <h1 class="copyrightcontent">Copyright © Rent Ride Hub:</h1>
+        <div class="footerlogo">
+            <a href="https://x.com/">
+                <div class="copyryttwitter"></div>
+            </a>
+            <a href="https://www.facebook.com/">
+                <div class="copyrytfacebook"></div>
+            </a>
+            <a href="https://www.instagram.com/">
+                <div class="copyrytinstagram"></div>
+            </a>
+            <a href="https://in.pinterest.com/">
+                <div class="copyrytprinter"></div>
+            </a>
+            <a href="https://web.whatsapp.com/">
+                <div class="copyrightwhatsup"></div>
+            </a>
+        </div>
+    </div>
+    </div>
+
+
+</section>
+
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
